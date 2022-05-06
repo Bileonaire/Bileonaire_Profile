@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const backendURL = "http://localhost:8080/api/v1";
+// const backendURL = "http://localhost:8080/api/v1";
+const backendURL = "https://2c96-41-90-187-189.in.ngrok.io/api/v1";
+
 
 export default async function apiCall(method, endpoint, data = {}, token) {
   const api = axios.create({
