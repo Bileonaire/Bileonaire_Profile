@@ -29,9 +29,7 @@ export async function getServerSideProps(ctx) {
   let trades = [];
   try {
     const token = JSON.parse(ctx.req.cookies.user).accessToken;
-    console.log('token', token);
     const tradeData = await apiCall("get", "/trades/user", {}, token);
-    console.log(tradeData);
     if (tradeData) trades = tradeData.data;
   } catch (e) {
     console.log(e.message);
