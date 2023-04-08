@@ -20,8 +20,14 @@ const ProjectsPage: React.FC<IProjectsPage> = ({ repos, articles }) => {
     <div className={styles.container}>
       <Head>
         <title>Projects</title>
-        <meta name="description" content="Teo | Mobile Application Developer" />
-        <link rel="icon" href="/profile_picture.jpg" />
+        <meta
+          name="description"
+          content="Leon | Mobile Application Developer"
+        />
+        <link
+          rel="icon"
+          href="https://avatars.githubusercontent.com/u/39065274?v=4"
+        />
       </Head>
 
       <main>

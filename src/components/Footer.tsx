@@ -41,7 +41,7 @@ const Footer = () => {
           fontSize="sm"
           color={useColorModeValue("gray.500", "gray.200")}
         >
-          © {new Date().getFullYear()} Teo Wen Long{" "}
+          © {new Date().getFullYear()} Bileonaire{" "}
         </Text>
 
         <Box textAlign="center">

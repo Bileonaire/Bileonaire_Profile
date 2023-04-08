@@ -51,7 +51,7 @@ const NavBar = () => {
                 : useColorModeValue("black", "white")
             }
             onClick={isOpen ? onClose : onOpen}
-            fontWeight='medium'
+            fontWeight="medium"
           >
             {link.name}
           </CharkaLink>
@@ -83,7 +83,7 @@ const NavBar = () => {
               as={CharkaLink}
               size="sm"
               href="/"
-              src="/profile_picture.jpg"
+              src="https://avatars.githubusercontent.com/u/39065274?v=4"
               _hover={{ borderColor: "blue.500" }}
             />
             <HStack as="nav" spacing="4" display={{ base: "none", md: "flex" }}>

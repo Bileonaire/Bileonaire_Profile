@@ -48,43 +48,43 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
           fontSize={{ base: "28px", md: "40px", lg: "48px" }}
           mb={3}
         >
-          Hey, I am Teo! <span className="waving-hand">👋</span>
+          Hey, I am Leon! <span className="waving-hand">👋</span>
         </Heading>
         <MotionFlex alignItems={"flex-end"} whileHover={{ scale: 1.2 }}>
           <Avatar
-            name="Teo Wen Long"
-            src="/profile_picture.jpg"
+            name="Bileonaire"
+            src="	https://avatars.githubusercontent.com/u/39065274?v=4"
             mb={5}
             size="lg"
           />
         </MotionFlex>
       </MotionFlex>
       <Paragraph textProps={{ fontSize: "2xl", lineHeight: 1.6 }}>
-        Frontend Developer from Malaysia 🇲🇾
+        Full-Stack Software Engineer
       </Paragraph>
       <Paragraph textProps={{ fontSize: "2xl", lineHeight: 1.6 }}>
         Focused on{" "}
         <Link
           color={useColorModeValue("blue.500", "blue.400")}
-          href="https://www.android.com/"
+          // href="https://www.android.com/"
           fontWeight="500"
           isExternal
         >
-          Web
+          Frontend
         </Link>
         {" & "}
         <Link
           color={useColorModeValue("blue.500", "blue.400")}
-          href="https://reactnative.dev/"
+          // href="https://reactnative.dev/"
           fontWeight="500"
           isExternal
         >
-          Mobile Development (Android & iOS)
-        </Link>
-        .{"\n"}Passion in beautiful UI / UX & Tech Writter on{" "}
+          Backend
+        </Link>{" "}
+        mainly Javascript .{"\n"}Passion in beautiful UI / UX & Tech Writer on{" "}
         <Link
           color={useColorModeValue("blue.500", "blue.400")}
-          href="https://skynight1996.medium.com/"
+          href="https://medium.com/@kiokoleon"
           fontWeight="500"
           isExternal
         >

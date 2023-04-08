@@ -14,9 +14,15 @@ const ArticlePage: React.FC<IArticlePage> = ({ articles }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Teo | Articles</title>
-        <meta name="description" content="Teo | Mobile Application Developer" />
-        <link rel="icon" href="/profile_picture.jpg" />
+        <title>Leon | Articles</title>
+        <meta
+          name="description"
+          content="Leon | Mobile Application Developer"
+        />
+        <link
+          rel="icon"
+          href="https://avatars.githubusercontent.com/u/39065274?v=4"
+        />
       </Head>
       <main>
         <Container maxW="container.lg" mt={["5", "10"]} mb={["5", "10"]}>

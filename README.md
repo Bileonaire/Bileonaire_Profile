@@ -10,12 +10,6 @@
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
-## Screens
-![screen1](/screenshot/screen1.png)
-![screen2](/screenshot/screen2.png)
-![screen3](/screenshot/screen3.png)
-![screen4](/screenshot/screen4.png)
-
 ## Setup ENV
 - Create `.env` file at the root of project
 ```
@@ -28,9 +22,10 @@ NEXT_PUBLIC_SPOTIFY_REFRESH_TOKEN=XXX
 - Run `yarn` and `yarn dev` and you're ready to go!
 - To setup Spotify API key, refer to [this article](https://dev.to/theodorusclarence/how-to-show-now-playing-in-spotify-with-next-js-15h5)
 
-## Reference 
-Since I am beginner in ReactJS, I took reference to some of the awesome developers in the community and hereby credited to all of them!
+## Reference
+I took reference to some of the awesome developers in the community and hereby credited to all of them!
 
+- [Teo](https://github.com/WenLonG12345/teo-nextjs-portfolio)
 - [Ma-Ahmad](https://github.com/MA-Ahmad/portfolio)
 - [Meera.dev](https://github.com/meerbahadin/meera.dev)
 - [How to show Now Playing in Spotify with Next.js](https://dev.to/theodorusclarence/how-to-show-now-playing-in-spotify-with-next-js-15h5)

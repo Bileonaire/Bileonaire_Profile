@@ -33,36 +33,36 @@ const menuLinks = [
 ];
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Teo Wen Long. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Bileonaire. All Rights Reserved.`,
   author: {
-    name: "Teo Wen Long",
+    name: "Bileonaire",
     accounts: [
       {
-        url: "https://github.com/WenLonG12345",
+        url: "https://github.com/Bileonaire",
         icon: <FaGithub />,
         name: "Github",
         type: "gray",
       },
       {
-        url: "https://www.linkedin.com/in/teo-wen-long-19960316/",
+        url: "https://www.linkedin.com/in/leonkioko/",
         icon: <FaLinkedin />,
         name: "Linkedin",
         type: "linkedin",
       },
       {
-        url: "https://stackoverflow.com/users/12261890/teo",
+        url: "https://stackoverflow.com/users/21594979/bileonaire",
         icon: <FaStackOverflow />,
         name: "StackOverflow",
         type: "orange",
       },
       {
-        url: "https://skynight1996.medium.com/",
+        url: "https://medium.com/@kiokoleon",
         icon: <FaMedium />,
         name: "Medium",
         type: "gray",
       },
       {
-        url: "mailto:teowenlong0316@gmail.com",
+        url: "mailto:kiokoleon@gmail.com",
         icon: <SiGmail />,
         name: "Gmail",
         type: "red",
@@ -72,7 +72,7 @@ const siteConfig = {
 };
 
 const resume = {
-  url: "https://drive.google.com/file/d/1KKVBejHxAr2PKhSCFufgnvdQTMUWt-u7/view?usp=sharing",
+  url: "https://drive.google.com/file/d/1_L3DfEVuhlTdcG3hwOkgqt3FHN0uBd-z/view?usp=sharing",
   icon: <CgAlbum />,
   name: "Resume",
 };
@@ -87,16 +87,6 @@ const mobileTechStacks = [
     name: "React Native",
     icon: <FaReact fontSize="20px" />,
     url: "https://reactnative.dev/",
-  },
-  {
-    name: "Kotlin",
-    icon: <SiKotlin fontSize="20px" />,
-    url: "https://kotlinlang.org/",
-  },
-  {
-    name: "Java",
-    icon: <FaJava fontSize="20px" />,
-    url: "https://www.java.com/en/",
   },
 ];
 
@@ -163,38 +153,47 @@ const otherTechStacks = [
 
 const companies = [
   {
-    title: "Astro",
-    alt: "astro image",
-    url: "https://www.astro.com.my/",
-    role: "Assiociate Frontend Engineer",
-    skills: ["React", "Sass", "Redux", "Redux Saga", "StorybookJS"],
+    title: "TradeFiti",
+    alt: "Tradefiti",
+    url: "https://www.tradefiti.com/",
+    role: "Full Stack Engineer",
+    skills: ["Next JS", "Node"],
     period: "Oct 2022 - Present",
-    logo: "/astro.png",
+    logo: "https://media.licdn.com/dms/image/D4D0BAQFRiBvs7Yrd7g/company-logo_200_200/0/1680508062079?e=1689206400&v=beta&t=gUPBP8wa_LQxVwQSsxC7YyrdMnFufJHiziuceoQnU1U",
   },
   {
-    title: "Qumon Intelligence",
-    alt: "qumon image",
-    url: "https://www.qumonintelligence.com/",
-    role: "Software Engineer",
+    title: "TopTal",
+    alt: "Toptal",
+    url: "https://www.toptal.com/resume/leon-kioko",
+    role: "Software Developer",
     skills: [
-      "Kotlin",
-      "Java",
-      "Android",
-      "Javascript",
-      "React",
+      "React.js",
       "React Native",
+      "Node",
+      "JavaScript",
+      "Scrum",
+      "Team Leadership",
     ],
-    period: "Aug 2020 - Sept 2022",
-    logo: "/qumon.png",
+    period: "Mar 2022 - Present",
+    logo: "https://media.licdn.com/dms/image/C560BAQEJlZg66jWL4w/company-logo_200_200/0/1580139518352?e=1689206400&v=beta&t=8QfWC6AgchuL8tRbQIt6uIUaw8yZ8yyZSbMJFFeBReI",
   },
   {
-    title: "TimeTec Cloud Sdn Bhd",
-    alt: "timetec image",
-    url: "https://www.timeteccloud.com/",
-    role: "Mobile Application Developer Intern",
-    skills: ["Java", "Android", "C#", "Appium Automation Testing", "AWS"],
-    period: "Jul 2019 - Jan 2020",
-    logo: "/timetec.png",
+    title: "Raise",
+    alt: "Raise",
+    url: "https://www.getraise.io/",
+    role: "Front-End Engineer",
+    skills: ["Remix Js", "Vue", "React", "UI Bakery", "Node JS"],
+    period: "Jan 2022 - Present",
+    logo: "https://media.licdn.com/dms/image/C4D0BAQFV-cIHAQqCcg/company-logo_200_200/0/1677073101581?e=1689206400&v=beta&t=U_a6AfIxzyZhmryEvprgg1CcbkkB5WAx_pz-u2ElVkE",
+  },
+  {
+    title: "Freelance",
+    alt: "freelance",
+    url: "https://www.getraise.io/",
+    role: "Software Developer",
+    skills: ["Next Js", "Vue", "React", "Tailwind CSS", "Node JS"],
+    period: "Jun 2020 - Jan 2022",
+    logo: "",
   },
 ];
 
@@ -227,62 +226,42 @@ const sideProjects = [
     summary:
       "NFC business card builder linked with unique NFT. Build business profile embed with NFC that allows others to scan and connect.",
     link: "https://nextjs-3commasclub-frontend.vercel.app/",
-    tech: [
-      'NextJS',
-      "ChakraUI",
-      "Ant Design",
-      "Ant Design Pro"
-    ]
+    tech: ["NextJS", "ChakraUI", "Ant Design", "Ant Design Pro"],
   },
   {
     name: "KlusterX Player Portal",
     imageUrl: "/klusterx_player.png",
     alt: "klusterx",
-    summary: "Online Casino Player Portal, built with NextJS, TailwindCSS and MantineUI",
-    tech: [
-      'NextJS',
-      "TailwindCSS",
-      "MantineUI",
-      "Zustand"
-    ]
+    summary:
+      "Online Casino Player Portal, built with NextJS, TailwindCSS and MantineUI",
+    tech: ["NextJS", "TailwindCSS", "MantineUI", "Zustand"],
   },
   {
     name: "KlusterX Tenant Portal",
     imageUrl: "/klusterx_tenant.png",
     alt: "klusterx",
     summary: "Online Casino Tenant Portal, built with Ant Design Pro",
-    tech: [
-      "UmiJS",
-      "Ant Design",
-      "Ant Design Pro"
-    ]
+    tech: ["UmiJS", "Ant Design", "Ant Design Pro"],
   },
   {
     name: "Chativo",
-    imageUrl: "https://play-lh.googleusercontent.com/tgLiP-ZL-sBuZt2RzDU1tN88Cp7NPbdjF7c0311_dui86f1HrAQM0j4gXaRE0pb5zW0=s360-rw",
+    imageUrl:
+      "https://play-lh.googleusercontent.com/tgLiP-ZL-sBuZt2RzDU1tN88Cp7NPbdjF7c0311_dui86f1HrAQM0j4gXaRE0pb5zW0=s360-rw",
     alt: "chativo",
-    summary: "Enterprise ready live-chat base customer support & engagement software",
-    tech: [
-      "Android",
-      "Kotlin",
-      "Android Jetpack",
-      "Coroutine Flow",
-    ],
-    link: "https://play.google.com/store/apps/details?id=io.chativo.chat"
+    summary:
+      "Enterprise ready live-chat base customer support & engagement software",
+    tech: ["Android", "Kotlin", "Android Jetpack", "Coroutine Flow"],
+    link: "https://play.google.com/store/apps/details?id=io.chativo.chat",
   },
   {
     name: "ChativoV",
-    imageUrl: "https://play-lh.googleusercontent.com/5U5s7sSIuzP6CygPkU2ZYxyOXT-MKv7oiyweGKHgkEgVameOcYt44rnXqCTWZJNZgVqn=s360-rw",
+    imageUrl:
+      "https://play-lh.googleusercontent.com/5U5s7sSIuzP6CygPkU2ZYxyOXT-MKv7oiyweGKHgkEgVameOcYt44rnXqCTWZJNZgVqn=s360-rw",
     alt: "chativo-v",
-    summary: "Live-chat specifically designed for visitors to communicate with real-time agent instantly",
-    tech: [
-      "React Native",
-      "Javascript",
-      "Redux",
-      "Redux Saga",
-      "RealmJS"
-    ],
-    link: "https://play.google.com/store/apps/details?id=io.chativo.visitor"
+    summary:
+      "Live-chat specifically designed for visitors to communicate with real-time agent instantly",
+    tech: ["React Native", "Javascript", "Redux", "Redux Saga", "RealmJS"],
+    link: "https://play.google.com/store/apps/details?id=io.chativo.visitor",
   },
 ];
 

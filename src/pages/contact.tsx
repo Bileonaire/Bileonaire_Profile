@@ -46,7 +46,7 @@ const Contact = () => {
     setIsLoading(true);
 
     emailjs
-      .send("service_a2q7dpb", "teo_email_template", {
+      .send("service_lfrsg9w", "template_xf8ywlo", {
         from_name: name,
         from_email: email,
         message: message,
@@ -81,9 +81,15 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Teo | Contact</title>
-        <meta name="description" content="Teo | Mobile Application Developer" />
-        <link rel="icon" href="/profile_picture.jpg" />
+        <title>Leon | Contact</title>
+        <meta
+          name="description"
+          content="Leon | Mobile Application Developer"
+        />
+        <link
+          rel="icon"
+          href="https://avatars.githubusercontent.com/u/39065274?v=4"
+        />
       </Head>
 
       <main>

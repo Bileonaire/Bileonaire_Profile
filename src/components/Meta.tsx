@@ -31,9 +31,7 @@ const Meta: React.FC<IMeta> = ({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:card" content="summary_large_image" />
-      <title>
-        {title.includes("Teo") ? title : `Teo | ${title}`}
-      </title>
+      <title>{title.includes("Leon") ? title : `Leon | ${title}`}</title>
     </Head>
   );
 };
