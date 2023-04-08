@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Features
+- **Home** - Resume & Tech Stack
+- **About** - Working Experience & Education
+- **Projects** - Github Repos & Medium Articles
+- **Contact** - Drop me an email! ✉️
 
-## Getting Started
+## Built with
+- [NextJS](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-First, run the development server:
+## Screens
+![screen1](/screenshot/screen1.png)
+![screen2](/screenshot/screen2.png)
+![screen3](/screenshot/screen3.png)
+![screen4](/screenshot/screen4.png)
 
-```bash
-npm run dev
-# or
-yarn dev
+## Setup ENV
+- Create `.env` file at the root of project
 ```
+GITHUB_USERNAME=XXX
+MEDIUM_USERNAME=XXX
+NEXT_PUBLIC_SPOTIFY_CLIENT_ID=XXX
+NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET=XXX
+NEXT_PUBLIC_SPOTIFY_REFRESH_TOKEN=XXX
+```
+- Run `yarn` and `yarn dev` and you're ready to go!
+- To setup Spotify API key, refer to [this article](https://dev.to/theodorusclarence/how-to-show-now-playing-in-spotify-with-next-js-15h5)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Reference 
+Since I am beginner in ReactJS, I took reference to some of the awesome developers in the community and hereby credited to all of them!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Ma-Ahmad](https://github.com/MA-Ahmad/portfolio)
+- [Meera.dev](https://github.com/meerbahadin/meera.dev)
+- [How to show Now Playing in Spotify with Next.js](https://dev.to/theodorusclarence/how-to-show-now-playing-in-spotify-with-next-js-15h5)
