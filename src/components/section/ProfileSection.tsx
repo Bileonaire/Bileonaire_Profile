@@ -1,13 +1,9 @@
 import React from "react";
 import {
-  SlideFade,
   Box,
   Heading,
   Avatar,
-  Image,
   Link,
-  Flex,
-  LightMode,
   ButtonGroup,
   Button,
   useColorModeValue,
@@ -108,8 +104,6 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
           </Link>
         </ButtonGroup>
       </Box>
-
-      <SpotifySection song={song} />
     </Box>
   );
 };
