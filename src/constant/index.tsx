@@ -7,6 +7,8 @@ import {
   SiTailwindcss,
   SiAntdesign,
   SiRedux,
+  SiMongodb,
+  SiPostgresql,
 } from "react-icons/si";
 import {
   FaReact,
@@ -19,6 +21,7 @@ import {
   FaMedium,
   FaGithub,
   FaSass,
+  FaNode,
 } from "react-icons/fa";
 import { CgAlbum } from "react-icons/cg";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -131,13 +134,28 @@ const webTechStacks = [
     icon: <FaSass fontSize="20px" />,
     url: "https://sass-lang.com/",
   },
+  {
+    name: "Node JS",
+    icon: <FaNode fontSize="20px" />,
+    url: "https://nodejs.org/en",
+  },
+  {
+    name: "Mongo DB",
+    icon: <SiMongodb fontSize="20px" />,
+    url: "https://www.mongodb.com/",
+  },
+  {
+    name: "Postgres",
+    icon: <SiPostgresql fontSize="20px" />,
+    url: "https://www.postgresql.org/",
+  },
 ];
 
 const otherTechStacks = [
   {
-    name: "CI/CD - Fastlane",
+    name: "CI/CD",
     icon: <SiFastlane fontSize="20px" />,
-    url: "https://fastlane.tools/",
+    url: "",
   },
   {
     name: "Firebase",
@@ -254,93 +272,70 @@ const educations = [
   },
 ];
 
-// const sideProjects = [
-//   {
-//     name: "3CommasClub NFT",
-//     imageUrl: "/3commas.png",
-//     alt: "3commasclub",
-//     summary:
-//       "NFC business card builder linked with unique NFT. Build business profile embed with NFC that allows others to scan and connect.",
-//     link: "https://nextjs-3commasclub-frontend.vercel.app/",
-//     tech: ["NextJS", "ChakraUI", "Ant Design", "Ant Design Pro"],
-//   },
-//   {
-//     name: "KlusterX Player Portal",
-//     imageUrl: "/klusterx_player.png",
-//     alt: "klusterx",
-//     summary:
-//       "Online Casino Player Portal, built with NextJS, TailwindCSS and MantineUI",
-//     tech: ["NextJS", "TailwindCSS", "MantineUI", "Zustand"],
-//   },
-//   {
-//     name: "KlusterX Tenant Portal",
-//     imageUrl: "/klusterx_tenant.png",
-//     alt: "klusterx",
-//     summary: "Online Casino Tenant Portal, built with Ant Design Pro",
-//     tech: ["UmiJS", "Ant Design", "Ant Design Pro"],
-//   },
-//   {
-//     name: "Chativo",
-//     imageUrl:
-//       "https://play-lh.googleusercontent.com/tgLiP-ZL-sBuZt2RzDU1tN88Cp7NPbdjF7c0311_dui86f1HrAQM0j4gXaRE0pb5zW0=s360-rw",
-//     alt: "chativo",
-//     summary:
-//       "Enterprise ready live-chat base customer support & engagement software",
-//     tech: ["Android", "Kotlin", "Android Jetpack", "Coroutine Flow"],
-//     link: "https://play.google.com/store/apps/details?id=io.chativo.chat",
-//   },
-//   {
-//     name: "ChativoV",
-//     imageUrl:
-//       "https://play-lh.googleusercontent.com/5U5s7sSIuzP6CygPkU2ZYxyOXT-MKv7oiyweGKHgkEgVameOcYt44rnXqCTWZJNZgVqn=s360-rw",
-//     alt: "chativo-v",
-//     summary:
-//       "Live-chat specifically designed for visitors to communicate with real-time agent instantly",
-//     tech: ["React Native", "Javascript", "Redux", "Redux Saga", "RealmJS"],
-//     link: "https://play.google.com/store/apps/details?id=io.chativo.visitor",
-//   },
-// ];
-
 const sideProjects = [
   {
-    name: "RecipeFinder",
-    imageUrl: "/3commas.png",
-    alt: "RecipeFinder",
+    name: "Raise",
+    imageUrl: "/raise.png",
+    alt: "Raise",
     summary:
-      "A recipe search engine that allows users to find, save and share recipes",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+      "Raise is the best place for growing African startups to manage equity, seed rounds and legal compliance. Close deals 2x faster for a third of the cost with this all-in-one platform.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Remix JS", "Vue JS"],
+    link: "https://www.getraise.io/",
   },
   {
-    name: "eShopify",
-    imageUrl: "/klusterx_player.png",
-    alt: "eShopify",
-    summary: "An online marketplace where users can buy and sell products",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+    name: "Admin Dashboard",
+    imageUrl: "/adminDashboard.png",
+    alt: "Raise",
+    summary:
+      "Built an admin dashboard at Raise for better decision making based on the metrics captured on the dashboard. UI Bakery is a low-code platform to build web apps you never had time for.",
+    tech: ["Javascript", "UI Bakery"],
   },
   {
-    name: "CryptoTracker",
-    imageUrl: "/klusterx_tenant.png",
+    name: "Tradefiti",
+    imageUrl: "/tradefiti.png",
+    alt: "tradefiti",
+    summary:
+      "The fastest and most efficient web-based platform to Journal your Trades, Get advanced analytics to Improve your trading, manage your accounts and copying trades",
+    tech: ["React", "Node.js", "Express", "Postgres", "GCP"],
+    link: "https://www.tradefiti.com/",
+  },
+  {
+    name: "Real Estate App",
+    imageUrl: "/realestate.png",
     alt: "CryptoTracker",
     summary:
-      "A cryptocurrency portfolio tracker that allows users to manage their investments",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+      "A real estate application to Explore Apartments, builder floors, villas and more",
+    tech: ["React", "Next.JS", "Chakra UI", "Rapid API"],
+    link: "https://bileonaire-real-estates.vercel.app/",
   },
   {
     name: "Blogify",
-    imageUrl:
-      "https://play-lh.googleusercontent.com/tgLiP-ZL-sBuZt2RzDU1tN88Cp7NPbdjF7c0311_dui86f1HrAQM0j4gXaRE0pb5zW0=s360-rw",
+    imageUrl: "/blogapp.png",
     alt: "Blogify",
     summary: "A platform for bloggers to publish and manage their articles",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+    tech: [
+      "React",
+      "Next.JS ",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "GraphQL",
+    ],
   },
   {
-    name: "TaskManager",
-    imageUrl:
-      "https://play-lh.googleusercontent.com/5U5s7sSIuzP6CygPkU2ZYxyOXT-MKv7oiyweGKHgkEgVameOcYt44rnXqCTWZJNZgVqn=s360-rw",
-    alt: "TaskManager",
+    name: "Instagram Clone",
+    imageUrl: "/instagram.png",
+    alt: "insta",
     summary:
       "A task management app that allows users to create and assign tasks",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+    tech: [
+      "React",
+      "Next.Js",
+      "Tailwind CSS",
+      "Firebase V9",
+      "NextAuth",
+      "Recoil",
+    ],
   },
 ];
 
