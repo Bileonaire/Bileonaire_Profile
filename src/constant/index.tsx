@@ -171,15 +171,6 @@ const otherTechStacks = [
 
 const companies = [
   {
-    title: "TradeFiti",
-    alt: "Tradefiti",
-    url: "https://www.tradefiti.com/",
-    role: "Full Stack Engineer",
-    skills: ["Next JS", "Node"],
-    period: "Oct 2022 - Present",
-    logo: "https://media.licdn.com/dms/image/D4D0BAQFRiBvs7Yrd7g/company-logo_200_200/0/1680508062079?e=1689206400&v=beta&t=gUPBP8wa_LQxVwQSsxC7YyrdMnFufJHiziuceoQnU1U",
-  },
-  {
     title: "TopTal",
     alt: "Toptal",
     url: "https://www.toptal.com/resume/leon-kioko",
@@ -203,6 +194,15 @@ const companies = [
     skills: ["Remix Js", "Vue", "React", "UI Bakery", "Node JS"],
     period: "Jan 2022 - Present",
     logo: "https://media.licdn.com/dms/image/C4D0BAQFV-cIHAQqCcg/company-logo_200_200/0/1677073101581?e=1689206400&v=beta&t=U_a6AfIxzyZhmryEvprgg1CcbkkB5WAx_pz-u2ElVkE",
+  },
+  {
+    title: "TradeFiti",
+    alt: "Tradefiti",
+    url: "https://www.tradefiti.com/",
+    role: "Full Stack Engineer",
+    skills: ["Next JS", "Node"],
+    period: "Oct 2022 - Dec 2022",
+    logo: "https://media.licdn.com/dms/image/D4D0BAQFRiBvs7Yrd7g/company-logo_200_200/0/1680508062079?e=1689206400&v=beta&t=gUPBP8wa_LQxVwQSsxC7YyrdMnFufJHiziuceoQnU1U",
   },
   {
     title: "Freelance",
