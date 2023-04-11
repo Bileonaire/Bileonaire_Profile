@@ -13,7 +13,7 @@ export default function Home() {
   const { data } = useSWR("/api/spotify", fetcher);
 
   return (
-    <PageLayout title="Leon | Frontend Developer">
+    <PageLayout title="Leon | Software Developer">
       <Container maxW="container.lg" mt={["5", "10"]} mb={["5", "10"]}>
         <ProfileSection song={data} />
         <Divider my={10} />
