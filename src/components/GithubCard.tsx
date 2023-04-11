@@ -38,7 +38,7 @@ const GithubCard: React.FC<IGithubCard> = ({ gitRepo }) => {
             <Flex
               justifyContent={"space-between"}
               width="100%"
-              onClick={(e) => window.open(gitRepo.url)}
+              onClick={(e) => window.open(gitRepo.html_url)}
             >
               <Tooltip hasArrow label={gitRepo.url} placement="top">
                 <HStack cursor={"pointer"}>

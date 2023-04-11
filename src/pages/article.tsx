@@ -15,10 +15,7 @@ const ArticlePage: React.FC<IArticlePage> = ({ articles }) => {
     <div className={styles.container}>
       <Head>
         <title>Leon | Articles</title>
-        <meta
-          name="description"
-          content="Leon | Mobile Application Developer"
-        />
+        <meta name="description" content="Leon | Software Developer" />
         <link
           rel="icon"
           href="https://avatars.githubusercontent.com/u/39065274?v=4"
