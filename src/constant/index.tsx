@@ -327,7 +327,7 @@ const sideProjects = [
     imageUrl: "/instagram.png",
     alt: "insta",
     summary:
-      "A task management app that allows users to create and assign tasks",
+      "A clone for the instagram inage sharing application",
     tech: [
       "React",
       "Next.Js",
