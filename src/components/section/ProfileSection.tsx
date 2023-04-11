@@ -77,8 +77,7 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
         >
           Backend
         </Link>{" "}
-        mainly Javascript .{"\n"}Passionate about beautiful UI / UX
-        {/* & Tech Writer on{" "}
+        mainly Javascript .{"\n"}Passionate about beautiful UI / UX & Tech Writer on{" "}
         <Link
           color={useColorModeValue("blue.500", "blue.400")}
           href="https://medium.com/@kiokoleon"
@@ -86,7 +85,7 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
           isExternal
         >
           Medium
-        </Link> */}
+        </Link>
         . 🔥
       </Paragraph>
 
