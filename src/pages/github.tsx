@@ -36,7 +36,6 @@ const GithubPage: React.FC<IGithubPage> = ({ repos }) => {
 
 export async function getServerSideProps() {
   const repos = await getGithubRepos(process.env.GITHUB_USERNAME || "");
-  console.log(repos);
 
   return {
     props: {

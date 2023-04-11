@@ -32,7 +32,7 @@ const ArticlePage: React.FC<IArticlePage> = ({ articles }) => {
 
 export default ArticlePage;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const articles = await getMediumArticles(process.env.MEDIUM_USERNAME || "");
 
   return {
